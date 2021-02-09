@@ -33,7 +33,7 @@
                     <button id="logIn" type="submit" class="btn btn-primary form-control p-2">Sign Up</button>
                 </form>
                 <hr>
-                <p class="text-center">Already Have an account <a href="{{ url('/signin') }}">Sign in</a> now</p>
+                <p class="text-center">Already Have an account <a href="{{ url('/') }}">Sign in</a> now</p>
             </div>
         </div>
     </div>

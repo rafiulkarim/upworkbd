@@ -10,4 +10,4 @@ use App\Http\Controllers\SignupController;
 Route::get('/signup', [SignupController::class, 'signup'])->name('singup.index');
 
 //signin
-Route::get('/signin', [SigninController::class, 'signin'])->name('singin.index');
+Route::get('/', [SigninController::class, 'signin'])->name('singin.index');
